@@ -21,7 +21,11 @@ Run `ng test` to run the Karma/Jasmine unit test cases. (If you have a different
 
 Run `ng e2e` to run the Cypress e2e integration test cases. (If you have a different version of Angular installed globally, then you can use 'npx ng e2e')
 
-### Usage
+## Usage
 
 With the above-mentioned API server running, run 'ng serve' (or 'npx ng run' if you have different version of Angular installed globally). The app can then be accessed using http://localhost:4200
+
+## Screenshots
+
+https://github.com/ns-code/ng18-maintainusers-refactored/wiki/Home---Screenshots
 
