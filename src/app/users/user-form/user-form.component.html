@@ -2,7 +2,7 @@
 
 
 <form class="user-form" [formGroup]="form" (ngSubmit)="onUserFormSubmit()">
-    <div class="errmsg">{{ errmsg }}</div>
+    <div class="errmsg">{{ appDataStateService.addUserError() }}</div>
   <mat-form-field>
     <mat-label>User Name</mat-label>
     <input type="text" class="user-name-input" matInput formControlName="userName" [errorStateMatcher]="matcher" placeholder="">
