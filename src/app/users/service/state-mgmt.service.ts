@@ -13,7 +13,7 @@ export class StateMgmtService {
 
     users = signal<User[]>([]);
 
-    user = signal<User>(new User(null, "", "", "", "", "", null));
+    user = signal<User>(new User("", "", "", "", "", null,));
 
     currentAppState = signal<AppState>(AppState.UNKNON_STATE);
     addUserError = signal<string>('');

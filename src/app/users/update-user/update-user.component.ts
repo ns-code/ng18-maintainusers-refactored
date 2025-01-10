@@ -30,7 +30,7 @@ export class UpdateUserComponent implements OnInit {
     private appDataStateService: StateMgmtService,
     private router: Router) {
         this.userToUpdate = appDataStateService.user();
-        this.userId = this.userToUpdate.userId;
+        this.userId = this.userToUpdate.userId!;
   }
 
   ngOnInit(): void {

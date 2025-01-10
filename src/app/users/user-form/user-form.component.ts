@@ -87,12 +87,12 @@ export class UserFormComponent {
         return false;
       }
 
-      this.formSubmitted.emit(new User(null, this.form.get("userName")?.value!, 
+      this.formSubmitted.emit(new User(this.form.get("userName")?.value!, 
       this.form.get("firstName")?.value!,
       this.form.get("lastName")?.value!,
       this.form.get("email")?.value!,
       this.form.get("userStatus")?.value!,
-      this.form.get("department")?.value!));
+      this.form.get("department")?.value!,));
       return true;
     }
 
